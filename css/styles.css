@@ -79,11 +79,11 @@ h6 {
 
 
 :root {
-  
---White: hsl(0, 0%, 100%);
---Light-gray: hsl(212, 45%, 89%);
---Grayish-blue: hsl(220, 15%, 55%);
---Dark-blue: hsl(218, 44%, 22%);
+
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
 
 
 }
@@ -99,37 +99,46 @@ h6 {
 
 
 
-body{
-
-
+body {
     font-family: 'Outfit', sans-serif;
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: var(--Light-gray);
+    font-size: 15px;
 }
 
-.container{
+.container {
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.card {
     text-align: center;
-    width: 300px;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 18px;
+    border-radius: 17px;
     background-color: var(--White);
+    margin: 0 1em;
 }
 
 
-img{
-    border-radius: 10px;
+.card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.text {
+    padding: 22px 10px;
 }
 
 
-h2{
-   
-    padding: 10px 0;
+h2 {
+
+    padding-bottom: 15px;
 }
 
 p {
     color: var(--Grayish-blue);
-    padding: 5px 0;
+
+
 }
